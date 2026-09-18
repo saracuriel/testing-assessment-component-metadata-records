@@ -36,9 +36,6 @@
     
     
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    
-    
-    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>, <https://creativecommons.org/publicdomain/zero/1.0/>, <https://creativecommons.org/publicdomain/zero/1.0/> ;
     ftr:status "Active"@en ;
      
     
@@ -48,26 +45,40 @@
     
     ftr:supportedBy <https://w3id.org/FAIR-Champion> ;
     dpv:IsApplicableFor <https://schema.org/Dataset>;
-    dcterms:creator <https://fairsharing.org/organisations/5933>; 
+
+    
+    
+    
+    
+    dcterms:creator <https://ror.org/03n6nwv02> ;
+
+
     
     
     
     
     
     
-    dcterms:publisher  <https://orcid.org/0000-0003-1138-4188>  ; 
-    dcat:contactPoint  <https://orcid.org/0000-0003-1138-4188>  . 
+    dcterms:publisher  <https://orcid.org/0000-0003-1138-4188> ,  <https://orcid.org/0000-0001-7699-3545>  ; 
+    dcat:contactPoint  <https://orcid.org/0000-0003-1138-4188> ,  <https://orcid.org/0000-0001-7699-3545>  . 
 
 
 
 
-<https://fairsharing.org/organisations/5933> a vcard:Organisation ;
-    vcard:organisation-name "IRB"^^xsd:string .
+<https://ror.org/03n6nwv02> a vcard:Organisation ;
+    vcard:organisation-name "Polytechnic University of Madrid"^^xsd:string .
 
 <https://orcid.org/0000-0003-1138-4188> a vcard:Individual, foaf:Agent ;
     vcard:fn "Bojan Macan"^^xsd:string ;
     vcard:hasEmail <mailto:bmacan@irb.hr> .
     
+
+  
+<https://orcid.org/0000-0001-7699-3545> a vcard:Individual, foaf:Agent ;
+    vcard:fn "Sara Stef"^^xsd:string ;
+    vcard:hasEmail <mailto:saracurielmanzanas@gmail.com> .
+    
+
 
 
 

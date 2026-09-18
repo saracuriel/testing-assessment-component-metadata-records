@@ -50,7 +50,7 @@
     
     
     
-    dcterms:creator <https://ror.org/03n6nwv02> ;
+    dcterms:creator <https://ror.org/02s93t850> ;
 
 
     
@@ -65,8 +65,8 @@
 
 
 
-<https://ror.org/03n6nwv02> a vcard:Organisation ;
-    vcard:organisation-name "Polytechnic University of Madrid"^^xsd:string .
+<https://ror.org/02s93t850> a vcard:Organisation ;
+    vcard:organisation-name "UPM"^^xsd:string .
 
 <https://orcid.org/0000-0003-1138-4188> a vcard:Individual, foaf:Agent ;
     vcard:fn "Bojan Macan"^^xsd:string ;

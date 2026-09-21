@@ -49,7 +49,7 @@
     
     
     
-    dcterms:creator <https://ror.org/02s93t850> ;
+    dcterms:creator <https://ror.org/02s93t851> ;
 
 
     
@@ -64,8 +64,8 @@
 
 
 
-<https://ror.org/02s93t850> a vcard:Organisation ;
-    vcard:organisation-name "UPM"^^xsd:string .
+<https://ror.org/02s93t851> a vcard:Organisation ;
+    vcard:organisation-name "IDC"^^xsd:string .
 
   
 <> a vcard:Organisation ;

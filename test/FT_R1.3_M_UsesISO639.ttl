@@ -56,7 +56,7 @@
     
     
     
-    sio:SIO_000233 <seISO639.ttl> ;
+    sio:SIO_000233 <https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl> ;
     
     
     
@@ -74,9 +74,9 @@
     vcard:hasEmail <mailto:milo.thurston@oerc.ox.ac.uk> .
     
 
-<seISO639.ttl> a dqv:Metric, ftr:Metric, dcat:Resource;
+<https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl> a dqv:Metric, ftr:Metric, dcat:Resource;
     rdfs:label "FAIR Metric – R1.3 - Metadata – use of ISO 639 language"^^xsd:string ;
-    dcterms:identifier "seISO639.ttl"^^xsd:string .
+    dcterms:identifier "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl"^^xsd:string .
 
 
 

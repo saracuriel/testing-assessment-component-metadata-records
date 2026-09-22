@@ -22,7 +22,7 @@
     dcterms:identifier "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1.3_M_UsesISO639.ttl"^^xsd:string ;
     rdfs:isDefinedBy "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1.3_M_UsesISO639.ttl"^^xsd:anyURI ;
     dcat:landingPage "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1.3_M_UsesISO639.ttl"^^xsd:anyURI ;
-    dcterms:title "FAIR Test - R1.3 - Metadata - use of ISO 639 "^^xsd:string ;
+    dcterms:title "FAIR Test - R1.3 - Metadata - use of ISO 639 language"^^xsd:string ;
     rdfs:label "FT_R1.3_M_UsesISO639"^^xsd:string ;
     vivo:abbreviation "FT_R1.3_M_UsesISO639"^^xsd:string ;
     dcterms:description """This test evaluates whether the metadata for the digital object includes at least one resolvable language attribute defined by the ISO 639 standard. It evaluates the value held in the language field against the official ISO 639 registry, searching for a valid, standardised code (specifically 639-2 / 639:2023) or a URI pointing to an ISO term. Expected input is a resolvable URL or identifier for the metadata record of the digital research object under evaluation."""^^xsd:string ;
@@ -56,7 +56,7 @@
     
     
     
-    sio:SIO_000233 <https://ost.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl> ;
+    sio:SIO_000233 <seISO639.ttl> ;
     
     
     
@@ -74,9 +74,9 @@
     vcard:hasEmail <mailto:milo.thurston@oerc.ox.ac.uk> .
     
 
-<https://ost.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl> a dqv:Metric, ftr:Metric, dcat:Resource;
+<seISO639.ttl> a dqv:Metric, ftr:Metric, dcat:Resource;
     rdfs:label "FAIR Metric – R1.3 - Metadata – use of ISO 639 language"^^xsd:string ;
-    dcterms:identifier "https://ost.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseISO639.ttl"^^xsd:string .
+    dcterms:identifier "seISO639.ttl"^^xsd:string .
 
 
 
